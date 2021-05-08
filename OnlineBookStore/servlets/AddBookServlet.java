@@ -48,9 +48,9 @@ public class AddBookServlet extends GenericServlet{
 				rd.include(req, res);
 			}
 		}
-		catch(Exception e)
+		catch(Exception ex)
 		{
-			e.printStackTrace();
+			ex.printStackTrace();
 		}
 	}
 }
